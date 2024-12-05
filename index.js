@@ -7,7 +7,7 @@ const cors = require('cors');
 // require('dotenv').config();
 
 // MongoDB Connection
-const mongoURI = 'mongodb://localhost:27017/abc'; // Update with your Compass connection string
+const mongoURI = 'mongodb+srv://kirtigaurav:1234@cluster0.fx5ic.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; // Update with your Compass connection string
 mongoose.connect(mongoURI, { useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.set('debug', true);
 
