@@ -15,7 +15,7 @@ const db = mongoose.connection;
 db.on('error', (error) => console.error('MongoDB connection error:', error));
 db.once('open', () => console.log('Connected to MongoDB'));
 
-// Initialize Express
+// Initialize Expresss
 const app = express();
 app.use(cors());
 app.use(bodyParser.json());
